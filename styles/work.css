@@ -1,0 +1,394 @@
+/* Reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+body {
+    margin:0;
+}
+
+* {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* End Reset */
+
+
+*, html {
+    box-sizing: border-box}
+
+/* Universals */
+html, body, .container .containerNav {
+    position: relative;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, li, a, caption, quote {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #B6BCC9;
+}
+
+a {
+  text-decoration: none;
+}
+/* End Universals */
+
+.container {
+background: #0d0d0f; 
+
+position: relative;
+height: 100vh;
+}
+
+.container .imgwrap {
+    background: -moz-radial-gradient(center, circle cover, #1a1f27 0%, #0d0d0f 64%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, circle cover, #1a1f27 0%,#0d0d0f 64%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(circle at 50% 13%, #1a1f27 0%,#0d0d0f 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1f27', endColorstr='#0d0d0f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    overflow: hidden;
+    position: absolute;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+}
+.container .imgDiv  {
+    height: 5em;
+    max-width: 6em;
+    width: 6em;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 1.5em auto;
+    background-image: url("../imgs/svgs/centerG.svg");
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    /* box-shadow: 0 0 2em 0.2em white; */
+}
+
+#navButton svg {
+    width: 6vw;
+    min-width: 3em;
+    position: absolute;
+    top: 4vw;
+    right: 4vw;
+
+}
+
+.backheader {
+    position: fixed;
+    margin-top: 2em;
+    bottom: 0;
+    left: 22vw;
+    mix-blend-mode: overlay;
+    /* height: 100%; */
+    opacity: 0.1;
+}
+.backheader h1 {
+    /* color: #101113; */
+    position: relative;
+    font-size: 40vw;
+    font-weight: 800;
+    top: 0.5em;
+    left: 7vw;
+    letter-spacing: 2px;
+    line-height: 0.8em;
+    text-align: right;
+
+}
+
+#w {
+    letter-spacing: -15px;
+}
+
+#nextLine {
+    display: block;
+    position: relative;
+    bottom: 1vw;
+
+}
+
+.homealigncenter {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 1vw;
+}
+
+#bottomHeader {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #557FC0;
+    text-align: center;
+
+}
+
+/* @Media */
+
+@media only screen and (max-width : 1024px) {
+}
+
+/* --------------END -------  @media----------------- */
+
+/* for testing */
+.shown {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+/* Slider */
+
+
+
+
+.container .mySlides {
+    display: none;
+}
+
+.container .activeSlider {
+  display: block;
+}
+.container .mySlides img, .container .mySlides svg {
+    display: block;
+    vertical-align: middle;
+    max-width: 35vw;
+    margin: 0 auto;
+}
+
+.awrap {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.awrap a {
+  display: block;
+  width: 100%;
+}
+
+/*--------------- SVG---------------- */
+
+.st0{opacity:0.36; transition: opacity 0.6s ease, fill 0.6s, stroke 0.6s;}
+.st1{fill:#B6BCC9; transition: opacity 0.6s ease, fill 0.6s, stroke 0.6s;}
+.st2{opacity:0.55; transition: opacity 0.6s ease, fill 0.6s, stroke 0.6s;}
+.st3{opacity:4.000000e-02;fill:none;stroke:#B6BCC9;stroke-width:5;stroke-miterlimit:10; transition: opacity 0.6s ease, fill 0.6s, stroke 0.6s;}
+
+#greeneAcresSymbol g:hover .st1 {
+    fill: white;
+    opacity: 1;
+} 
+
+.st1:hover {
+    fill: white;
+    opacity: 1;
+}
+.st2:hover {
+    stroke: white;
+    stroke-width: 5pt;
+    opacity: 1;
+}
+
+
+/* hexamind svg */
+#hexamind .st0{opacity:0.38;}
+#hexamind .st1{opacity:0.65;}
+#hexamind .st2{fill:#B6BCC9; transition:all 0.6s ease;}
+#hexamind .st3{opacity:0.19;}
+#hexamind .st4{opacity:0.35;}
+#hexamind .st5{opacity:0.32;}
+#hexamind .st6{opacity:0.29;}
+#hexamind .st7{opacity:0.7;}
+
+#hexamind .st2:hover {
+    stroke: white;
+    stroke-width: 2pt;
+    opacity: 1;
+}
+    /* ^hexamind svg */
+
+/* invite svg */
+#invite .st0{opacity:0.38;fill:#B6BCC9;}
+
+#invite .st0:hover {fill:white; opacity:0.5;}
+/* ^invite svg */
+
+  
+
+/* CSS ZEN GARDEN */
+#planetSymbol {
+  opacity: 0.3;
+}
+#planetSymbol .st2 {fill:#B6BCC9; opacity:0.7;}
+#planetSymbol .st1 {fill:white; opacity: 1;}
+#planetSymbol .st1:hover {fill:white;}
+#planetSymbol .st2:hover {stroke:none; opacity:0.9; fill:#B6BCC9;}
+/*  */
+
+/* Panic Button */
+#panicButtonSymbol {
+  opacity: 0.6;
+}
+#panicButtonSymbol .st0{opacity:0.4;fill:#B6BCC9;}
+#panicButtonSymbol .st1{opacity:0.61;fill:#B6BCC9;}
+#panicButtonSymbol .st2{opacity:0.51;fill:#B6BCC9;}
+#panicButtonSymbol .st3{opacity:0.51;fill:#B6BCC9;}
+#panicButtonSymbol .st4{opacity:0.1;fill:#B6BCC9;stroke:#7F838C;stroke-miterlimit:10;}
+#panicButtonSymbol .st5{opacity:0.3;}
+#panicButtonSymbol .st6{fill:#FFFFFF;}
+/*  */
+
+
+/* Done SVG */
+
+
+/* Slideshow container */
+.container .slideshow-container {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20%;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* Next & previous buttons */
+.container .prev, .container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.container .prev:hover, .container .next:hover {
+  color: #B6BCC9;
+}
+
+/* Caption text */
+.container .text {
+  color: #B6BCC9;
+  padding: 8px 12px;
+  margin-top: 3em;
+  position: relative;
+  bottom: 2em;
+  width: 100%;
+  text-align: center;
+}
+.container .text p {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+/* The dots/bullets/indicators */
+.dotContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2vw;
+
+}
+
+
+.container .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: box-shadow 1.3s ease, border 0.8s ease, backgroun-color 0.3s ease;
+}
+
+.container .active {
+  background-color: #2F2F30;
+  box-shadow: 0 0 2em 0.2em #717171;
+  border: 3.4px solid #557FC0;
+}
+
+.container .dot:hover.dot:not(.active) {
+  background-color: #B6BCC9;
+
+}
+
+/* Fading animation */
+.container .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  z-index: 100;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+
+
+/*@medias*/
+@media only screen and (max-width: 1024px) {
+  .container .mySlides img, .container .mySlides svg {
+    max-width:50vw;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 450px) {
+  .container .slideshow-container {
+    top:30vh;
+    min-width:95vw;
+  }
+  .prev, .next,.text {font-size: 11px}
+  .prev {
+    padding-left:0;
+  }
+  .next {
+    padding-left:0;
+  }
+  .container .mySlides img, .container .mySlides svg {
+    max-width:80vw;
+  }
+}
+
+
+
+
+
+
+/* Testing and Coding */
+
+
+.mySlides {
+}
