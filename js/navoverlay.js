@@ -9,6 +9,8 @@ let nonNavs = document.querySelectorAll(".nonNav");
 let mainContent = document.querySelectorAll(".mainContent")[0];
 let navOverlay = document.querySelector(".navOverlay");
 let container = document.querySelectorAll(".container")[0];
+let backgroundImg = document.querySelector(".backgroundImg");
+let backgroundImgWrap = document.querySelector(".backgroundImgWrap");
 
 //Mouse Over Listener
 
@@ -28,6 +30,8 @@ function navButtonClick() {
         // container.classList.remove('container');
         container.classList.add('containerNav', 'containerNavShown');
         navOverlay.classList.add('navShown');
+        // backgroundImg.classList.add('backgroundNav');
+        backgroundImgWrap.classList.add('backgroundWrapNav');
         if (mainContent !== undefined) {
             console.log("this is one of the portfolio pages");
         }
@@ -52,6 +56,8 @@ function navButtonClick() {
         container.classList.remove('containerNav', 'containerNavShown');
         // container.classList.add('container');
         navOverlay.classList.remove('navShown');
+        // backgroundImg.classList.remove('backgroundNav');
+        backgroundImgWrap.classList.remove('backgroundWrapNav');
         if (mainContent !== undefined) {
             console.log("this is one of the portfolio pages");
             for(let i=0; i<nonNavs.length; i++) {
