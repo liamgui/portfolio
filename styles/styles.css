@@ -35,17 +35,30 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     text-align: inherit;
 }
 
+
+
+/*General*/
 main {
     position: absolute;
     top: 0;   
 }
+
+.centerG  {
+    /* margin: 1.5em auto; */
+    position: fixed;
+    display: flex;
+    top: 5%;
+    z-index: 13;
+    justify-content: center;
+    width: 100vw;
+    /* margin-top: 2.8em; */
+    /* bottom: 0; */
+
+}
+
 .container {
     /*     background-image: linear-gradient(to left, #1A1F27, #0D0D0F) ;*/
     background: #0D0D0F; /* Old browsers */
-    background: -moz-linear-gradient(left, #0d0d0f 0%, #202730 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #0d0d0f 0%,#202730 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #0d0d0f 0%,#202730 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0f', endColorstr='#202730',GradientType=1 ); /* IE6-9 */
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -72,96 +85,110 @@ main {
 }
 
 
-.mainfrontInfo {
-    position: relative;
-    top: 0;
-    height: 100%;
-}
 
-.homealignright {
-    position: absolute;
-    top: 13vw;
-    right: 13%;
-}
-
-.header1 {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    
-}
-
-#name {
-    font-size: 6.4vw;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: right;
-
-
-}
-
-span#lastName {
-    margin-top: 2vw;
-}
-
-.whoIAm {
-    margin-top: 13.5vw;
-    text-align: right;
-    letter-spacing: 5px;
-}
-.whoIAm li {
-    font-size: 2vw;
-    margin-top: 3vw;
-
-}
-
-.homealigncenter {
-    position: absolute;
-    bottom: 1em;
-    left: 0;
-    right: 0;
-}
-
-#bottomHeader {
-    /* position: absolute; */
-    left: 0;
-    right: 0;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 3vw;
-    font-weight: 700;
-    color: #557FC0;
-    text-align: center;
-
-}
-
-/* --------------@media----------------- */
-@media only screen and (min-width:1100px) {
-    .homealignright {
-        position: absolute;
-        top: 9em;
+/* --------------GENERAL @media----------------- */
+    @media only screen and (min-width:1100px) {
+        .homealignright {
+            position: absolute;
+            top: 9em;
+        }
+        #name {
+            font-size: 4em;
+        }
+        .whoIAm {
+            margin-top: 9.5em;
+            text-align: right;
+            letter-spacing: 5px;
+        }
+        .whoIAm li {
+            font-size: 1.5em;
+            margin-top: 1.5em;
+        }
+        .homealigncenter {
+        }
     }
-    #name {
-        font-size: 4em;
-    }
-    .whoIAm {
-        margin-top: 9.5em;
-        text-align: right;
-        letter-spacing: 5px;
-    }
-    .whoIAm li {
-        font-size: 1.5em;
-        margin-top: 1.5em;
-    }
-    .homealigncenter {
-    }
-}
 
-.shown {
-    display: block;
-}
-.hidden {
-    display: none;
-}
+    .shown {
+        display: block;
+    }
+    .hidden {
+        display: none;
+    }
 
-/* --------------END -------  @media----------------- */
+/* --------------END GENERAL @media----------------- */
+
+
+/*-----------------SPECIFIC PAGES-----------------*/
+    /*HOME PAGE*/
+        #home .container {
+            background: -moz-linear-gradient(left, #0d0d0f 0%, #202730 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #0d0d0f 0%,#202730 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #0d0d0f 0%,#202730 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0f', endColorstr='#202730',GradientType=1 ); /* IE6-9 */
+            /* z-index: 100; */
+        }
+        .mainfrontInfo {
+            position: relative;
+            top: 0;
+            height: 100%;
+        }
+
+        .homealignright {
+            position: absolute;
+            top: 13vw;
+            right: 13%;
+        }
+
+        .header1 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            
+        }
+
+        #name {
+            font-size: 6.4vw;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-align: right;
+
+
+        }
+
+        span#lastName {
+            margin-top: 2vw;
+        }
+
+        .whoIAm {
+            margin-top: 13.5vw;
+            text-align: right;
+            letter-spacing: 5px;
+        }
+        .whoIAm li {
+            font-size: 2vw;
+            margin-top: 3vw;
+
+        }
+
+        .homealigncenter {
+            position: absolute;
+            bottom: 1em;
+            left: 0;
+            right: 0;
+        }
+
+        #bottomHeader {
+            /* position: absolute; */
+            left: 0;
+            right: 0;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font-size: 3vw;
+            font-weight: 700;
+            color: #557FC0;
+            text-align: center;
+
+        }
+
+
+
 
