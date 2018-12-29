@@ -43,26 +43,14 @@ main {
     top: 0;   
 }
 
-.centerG  {
-    /* margin: 1.5em auto; */
-    position: fixed;
-    display: flex;
-    top: 5%;
-    z-index: 13;
-    justify-content: center;
-    width: 100vw;
-    /* margin-top: 2.8em; */
-    /* bottom: 0; */
-
-}
-
 .container {
     /*     background-image: linear-gradient(to left, #1A1F27, #0D0D0F) ;*/
-    background: #0D0D0F; /* Old browsers */
+    /* background: #0D0D0F;  */
     position: relative;
     height: 100vh;
     width: 100vw;
-    /* z-index: 100; */
+    /* z-index: 12; */
+    /* z-index: 100;*/
 }
 
 .container .imgwrap {
@@ -83,6 +71,88 @@ main {
     background-repeat: no-repeat; 
     overflow: hidden;
 }
+
+
+
+.centerG  {
+    /* margin: 1.5em auto; */
+    /* position: fixed; */
+    display: flex;
+    /* margin-top: ; */
+    top: 5vh;
+    z-index: 13;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2.3vw;
+    /* bottom: 0; */
+
+}
+
+.container .centerG svg {
+    cursor: pointer;
+    height: 6em;
+    max-width: 20vw;
+    width: 7em;
+}
+
+/* Center G SVG */
+  .centerG  .st0{display:none;opacity:0.13;}
+  .centerG  .st1{display:inline;}
+  .centerG  .st2{display:none;fill:#404853;}
+  .centerG  .st3{opacity:0.2185;}
+  .centerG  .st4{opacity:0.75;}
+  .centerG  .st5{fill:#CEDEE9;}
+  .centerG  .st6{opacity:0.3478;}
+  .centerG  .st7{display:none;fill:url(#SVGID_1_);}
+  .centerG  .st8{fill:url(#SVGID_2_);}
+  .centerG  .st9{fill:url(#SVGID_3_);}
+  .centerG  .st10{fill:url(#SVGID_4_);}
+  .centerG  .st11{fill:url(#SVGID_5_);}
+  .centerG  .st12{fill:url(#SVGID_6_);}
+  .centerG  .st13{opacity:0.56;}
+  .centerG  .st14{display:none;fill:url(#SVGID_7_);}
+  .centerG  .st15{opacity:0.16;fill:url(#SVGID_8_);enable-background:new    ;}
+  .centerG  .st16{opacity:0.16;fill:url(#SVGID_9_);enable-background:new    ;}
+  .centerG  .st17{opacity:0.16;fill:url(#SVGID_10_);enable-background:new    ;}
+  .centerG  .st18{opacity:0.16;fill:url(#SVGID_11_);enable-background:new    ;}
+  .centerG  .st19{opacity:0.16;fill:url(#SVGID_12_);enable-background:new    ;}
+  .centerG  .st20{display:none;}
+  .centerG  .st21{display:inline;filter:url(#Adobe_OpacityMaskFilter);}
+  .centerG  .st22{fill:#FFFFFF;}
+  .centerG  .st23{display:inline;mask:url(#SVGID_13_);}
+  .centerG  .st24{filter:url(#Adobe_OpacityMaskFilter_1_);}
+  .centerG  .st25{mask:url(#SVGID_14_);}
+  .centerG  .st26{display:none;fill:url(#SVGID_15_);}
+  .centerG  .st27{fill:url(#SVGID_16_);}
+  .centerG  .st28{fill:url(#SVGID_17_);}
+  .centerG  .st29{fill:url(#SVGID_18_);}
+  .centerG  .st30{fill:url(#SVGID_19_);}
+  .centerG  .st31{fill:url(#SVGID_20_);}
+  .centerG  .st32{display:none;opacity:0.56;}
+  .centerG  .st33{display:inline;opacity:0.98;}
+  .centerG  .st34{display:none;fill:url(#SVGID_21_);}
+  .centerG  .st35{opacity:0.16;fill:url(#SVGID_22_);}
+  .centerG  .st36{opacity:0.16;fill:url(#SVGID_23_);}
+  .centerG  .st37{opacity:0.16;fill:url(#SVGID_24_);}
+  .centerG  .st38{opacity:0.16;fill:url(#SVGID_25_);}
+  .centerG  .st39{opacity:0.16;fill:url(#SVGID_26_);}
+
+
+.portfolioPiece .backgroundImg {
+    background: none;
+}
+
+.portfolioPiece .backgroundImgWrap {
+    width: 100vw;
+}
+/* End */
+
+
+  .container .hover {
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+
+  }
 
 
 
@@ -188,7 +258,19 @@ main {
             text-align: center;
 
         }
+    /* End Home Page */
+
+    /*  */
 
 
 
 
+
+
+/* nav and background G and center g z-index
+
+nav needs to be higher than background G and background G needs to be higher than container
+
+center g and container need to move to the right
+
+ */

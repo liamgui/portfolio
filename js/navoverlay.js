@@ -28,7 +28,7 @@ function navButtonClick() {
         line2.setAttribute("x2", "0.33");
         line2.setAttribute("y1", "0.33");
         // container.classList.remove('container');
-        container.classList.add('containerNav', 'containerNavShown');
+        container.classList.add('containerNavShown');
         navOverlay.classList.add('navShown');
         // backgroundImg.classList.add('backgroundNav');
         backgroundImgWrap.classList.add('backgroundWrapNav');
@@ -53,7 +53,7 @@ function navButtonClick() {
         line2.setAttribute("x2", "63.03");
         line2.setAttribute("y2", "0.47");
         // let container = document.getElementsByClassName("containerNav")[0];
-        container.classList.remove('containerNav', 'containerNavShown');
+        container.classList.remove('containerNavShown');
         // container.classList.add('container');
         navOverlay.classList.remove('navShown');
         // backgroundImg.classList.remove('backgroundNav');
