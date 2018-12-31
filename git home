@@ -1,0 +1,23 @@
+[33mcommit eec5b9f84016def505cd0b6a852b47908703d225[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: liamgui <guidkid3@gmail.com>
+Date:   Sat Dec 29 02:12:36 2018 -0500
+
+    portfoliopiece page center g styling and addition. changed styles for portfolio pages and the container z-index. Got rid of background G from home page.
+
+[33mcommit 1f707587dc0d967378b1373e8153aa23497e125a[m
+Author: Will Desktop <guidkid3@gmail.com>
+Date:   Fri Dec 28 18:27:40 2018 -0500
+
+    organizing styles sheet according to structure at bottom of index
+
+[33mcommit 7a0787af217737678c5196e4aa29fffcc992135b[m
+Author: liamgui <guidkid3@gmail.com>
+Date:   Fri Dec 28 11:28:46 2018 -0500
+
+    updated nav animation to fit all vw sizes
+
+[33mcommit ca72eaf6693150b5ad904e438dfe346259608fd8[m
+Author: liamgui <guidkid3@gmail.com>
+Date:   Thu Dec 27 14:59:51 2018 -0500
+
+    first commit of dev portfolio site- homepage/nav only

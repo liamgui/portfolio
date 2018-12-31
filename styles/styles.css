@@ -21,8 +21,8 @@ html, body, .container .containerNav {
     width: 100vw;
 }
 body {
-    overflow: hidden;
-    max-width: 100vw;
+    /*overflow: hidden;*/
+    /*max-width: 100vw;*/
 }
 h1, h2, h3, h4, h5, h6, p, li, a {
     font-family: futura-pt, sans-serif;
@@ -83,7 +83,7 @@ main {
     z-index: 13;
     justify-content: center;
     width: 100vw;
-    margin-top: 2.3vw;
+    padding-top: 2.3vw;
     /* bottom: 0; */
 
 }
@@ -96,47 +96,46 @@ main {
 }
 
 /* Center G SVG */
-  .centerG  .st0{display:none;opacity:0.13;}
-  .centerG  .st1{display:inline;}
-  .centerG  .st2{display:none;fill:#404853;}
-  .centerG  .st3{opacity:0.2185;}
-  .centerG  .st4{opacity:0.75;}
-  .centerG  .st5{fill:#CEDEE9;}
-  .centerG  .st6{opacity:0.3478;}
-  .centerG  .st7{display:none;fill:url(#SVGID_1_);}
-  .centerG  .st8{fill:url(#SVGID_2_);}
-  .centerG  .st9{fill:url(#SVGID_3_);}
-  .centerG  .st10{fill:url(#SVGID_4_);}
-  .centerG  .st11{fill:url(#SVGID_5_);}
-  .centerG  .st12{fill:url(#SVGID_6_);}
-  .centerG  .st13{opacity:0.56;}
-  .centerG  .st14{display:none;fill:url(#SVGID_7_);}
-  .centerG  .st15{opacity:0.16;fill:url(#SVGID_8_);enable-background:new    ;}
-  .centerG  .st16{opacity:0.16;fill:url(#SVGID_9_);enable-background:new    ;}
-  .centerG  .st17{opacity:0.16;fill:url(#SVGID_10_);enable-background:new    ;}
-  .centerG  .st18{opacity:0.16;fill:url(#SVGID_11_);enable-background:new    ;}
-  .centerG  .st19{opacity:0.16;fill:url(#SVGID_12_);enable-background:new    ;}
-  .centerG  .st20{display:none;}
-  .centerG  .st21{display:inline;filter:url(#Adobe_OpacityMaskFilter);}
-  .centerG  .st22{fill:#FFFFFF;}
-  .centerG  .st23{display:inline;mask:url(#SVGID_13_);}
-  .centerG  .st24{filter:url(#Adobe_OpacityMaskFilter_1_);}
-  .centerG  .st25{mask:url(#SVGID_14_);}
-  .centerG  .st26{display:none;fill:url(#SVGID_15_);}
-  .centerG  .st27{fill:url(#SVGID_16_);}
-  .centerG  .st28{fill:url(#SVGID_17_);}
-  .centerG  .st29{fill:url(#SVGID_18_);}
-  .centerG  .st30{fill:url(#SVGID_19_);}
-  .centerG  .st31{fill:url(#SVGID_20_);}
-  .centerG  .st32{display:none;opacity:0.56;}
-  .centerG  .st33{display:inline;opacity:0.98;}
-  .centerG  .st34{display:none;fill:url(#SVGID_21_);}
-  .centerG  .st35{opacity:0.16;fill:url(#SVGID_22_);}
-  .centerG  .st36{opacity:0.16;fill:url(#SVGID_23_);}
-  .centerG  .st37{opacity:0.16;fill:url(#SVGID_24_);}
-  .centerG  .st38{opacity:0.16;fill:url(#SVGID_25_);}
-  .centerG  .st39{opacity:0.16;fill:url(#SVGID_26_);}
-
+    .centerG  .st0{display:none;opacity:0.13;}
+    .centerG  .st1{display:inline;}
+    .centerG  .st2{display:none;fill:#404853;}
+    .centerG  .st3{opacity:0.2185;}
+    .centerG  .st4{opacity:0.75;}
+    .centerG  .st5{fill:#CEDEE9;}
+    .centerG  .st6{opacity:0.3478;}
+    .centerG  .st7{display:none;fill:url(#SVGID_1_);}
+    .centerG  .st8{fill:url(#SVGID_2_);}
+    .centerG  .st9{fill:url(#SVGID_3_);}
+    .centerG  .st10{fill:url(#SVGID_4_);}
+    .centerG  .st11{fill:url(#SVGID_5_);}
+    .centerG  .st12{fill:url(#SVGID_6_);}
+    .centerG  .st13{opacity:0.56;}
+    .centerG  .st14{display:none;fill:url(#SVGID_7_);}
+    .centerG  .st15{opacity:0.16;fill:url(#SVGID_8_);enable-background:new    ;}
+    .centerG  .st16{opacity:0.16;fill:url(#SVGID_9_);enable-background:new    ;}
+    .centerG  .st17{opacity:0.16;fill:url(#SVGID_10_);enable-background:new    ;}
+    .centerG  .st18{opacity:0.16;fill:url(#SVGID_11_);enable-background:new    ;}
+    .centerG  .st19{opacity:0.16;fill:url(#SVGID_12_);enable-background:new    ;}
+    .centerG  .st20{display:none;}
+    .centerG  .st21{display:inline;filter:url(#Adobe_OpacityMaskFilter);}
+    .centerG  .st22{fill:#FFFFFF;}
+    .centerG  .st23{display:inline;mask:url(#SVGID_13_);}
+    .centerG  .st24{filter:url(#Adobe_OpacityMaskFilter_1_);}
+    .centerG  .st25{mask:url(#SVGID_14_);}
+    .centerG  .st26{display:none;fill:url(#SVGID_15_);}
+    .centerG  .st27{fill:url(#SVGID_16_);}
+    .centerG  .st28{fill:url(#SVGID_17_);}
+    .centerG  .st29{fill:url(#SVGID_18_);}
+    .centerG  .st30{fill:url(#SVGID_19_);}
+    .centerG  .st31{fill:url(#SVGID_20_);}
+    .centerG  .st32{display:none;opacity:0.56;}
+    .centerG  .st33{display:inline;opacity:0.98;}
+    .centerG  .st34{display:none;fill:url(#SVGID_21_);}
+    .centerG  .st35{opacity:0.16;fill:url(#SVGID_22_);}
+    .centerG  .st36{opacity:0.16;fill:url(#SVGID_23_);}
+    .centerG  .st37{opacity:0.16;fill:url(#SVGID_24_);}
+    .centerG  .st38{opacity:0.16;fill:url(#SVGID_25_);}
+    .centerG  .st39{opacity:0.16;fill:url(#SVGID_26_);}
 
 .portfolioPiece .backgroundImg {
     background: none;
@@ -158,24 +157,6 @@ main {
 
 /* --------------GENERAL @media----------------- */
     @media only screen and (min-width:1100px) {
-        .homealignright {
-            position: absolute;
-            top: 9em;
-        }
-        #name {
-            font-size: 4em;
-        }
-        .whoIAm {
-            margin-top: 9.5em;
-            text-align: right;
-            letter-spacing: 5px;
-        }
-        .whoIAm li {
-            font-size: 1.5em;
-            margin-top: 1.5em;
-        }
-        .homealigncenter {
-        }
     }
 
     .shown {
@@ -203,7 +184,7 @@ main {
             height: 100%;
         }
 
-        .homealignright {
+        .mainName {
             position: absolute;
             top: 13vw;
             right: 13%;
@@ -216,20 +197,32 @@ main {
         }
 
         #name {
-            font-size: 6.4vw;
+            font-size: 7vw;
             text-transform: uppercase;
             letter-spacing: 5px;
             text-align: right;
 
 
         }
+        span#iLetter:before {
+            content:"o";
+            /*display:block;*/
+            position:absolute;
+            top:-1em;
+            padding-left:0.225em;
+            color: #557FC0;
+            font-weight: 700;
+            text-shadow: 0 0 45px #CEDEE9;
 
+
+            font-size:0.2em;
+        } 
         span#lastName {
             margin-top: 2vw;
         }
 
         .whoIAm {
-            margin-top: 13.5vw;
+            margin-top: 15vh;
             text-align: right;
             letter-spacing: 5px;
         }
@@ -239,11 +232,12 @@ main {
 
         }
 
-        .homealigncenter {
+        .bottomalignCenter {
             position: absolute;
             bottom: 1em;
             left: 0;
             right: 0;
+            z-index: 20;
         }
 
         #bottomHeader {
@@ -256,7 +250,6 @@ main {
             font-weight: 700;
             color: #557FC0;
             text-align: center;
-
         }
     /* End Home Page */
 
