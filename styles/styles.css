@@ -533,6 +533,26 @@ main {
               from {opacity: 0.4} 
               to {opacity: 1}
             }
+
+            /* @MEDIA for Works Page */
+                @media screen and (max-width: 450px) {
+                    .container .slideshow-container {
+                        height: 70vh;
+                        width: 95vw;
+                    }
+                    .container .prev, .container .next {
+                        padding: 10px;
+                    }
+                    .container .text p {
+                        font-size: 14px;
+                    }
+                    .container .mySlides img, .container .mySlides svg {
+                        max-width: 80vw;
+                    }
+                    .awrap {
+                        width: 100%;
+                    }
+                }
     /* End Work Page */
 
 
