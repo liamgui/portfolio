@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/nav.css">
 
-
 </head>
-<body class="portfolioPiece" id="worksPage"> 
+<body class="portfolioPiece" id="worksPage">
+    <script>
+        document.body.classList.add('fade-out');
+    </script>
+
     <!-- Header Content -->
     <header>
         <div id="navButton">
@@ -56,10 +59,10 @@
     <!-- End Header -->
     <main>
         <div class="container">
-            <div class="backheader">
-                <h1><span id="w">W</span>o<span id="nextLine">rk</span></h1>
-            </div>
             <div class="fixedElements">
+                <div class="backheader">
+                    <h1><span id="w">W</span>o<span id="nextLine">rk</span></h1>
+                </div>
                 <div class="centerG">
                     <a href="index.html">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 807 698.9" style="enable-background:new 0 0 807 698.9;" xml:space="preserve">
@@ -334,6 +337,7 @@
                     <div class="gradient1">
                     </div>
                 </div>
+
             </div>
             <div class="slideshow-container">
                 <div class="mySlides fade" id="1">
@@ -808,5 +812,9 @@
     <script src="js/navoverlay.js"></script>
     <script src="js/gHover.js"></script>
     <script src="js/workSlider.js"></script>
+    <script>window.onload = document.body.classList.remove('fade-out');</script>
+    <!-- FIX THIS ONLOAD TO MAKE IT WITH ADDEVENTLISTENER -->
+    <!-- you can make a loading screen with this -->
+    <!-- get rid of console logs in js -->
 </body>
 </html>
