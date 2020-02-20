@@ -257,7 +257,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1f27', end
     position: relative;
     left: 0;
     right: 0;
-    top: 20%;
+    margin-top: 10em;
     width: 80vw;
     margin: 0 auto;
 }
