@@ -4,19 +4,39 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Guidinger Dev</title>
-        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/styles.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/mnr3qiz.css" />
     </head>
     <body>
         <style>
+            body {
+                background: #0d0d0f; /* Old browsers */
+                background: -moz-linear-gradient(left, #0d0d0f 0%, #202730 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left, #0d0d0f 0%, #202730 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right, #0d0d0f 0%, #202730 100%);
+            }
             a {
                 color: #777777;
                 text-transform: uppercase;
                 text-decoration: none;
-                font-family: "Futura PT", sans-serif;
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+            a:hover {
+                color: #999999;
+            }
+            .devNav {
+                position: absolute;
+                bottom: 2em;
+                right: 2em;
             }
         </style>
         <div class="container">
-            <a href="/dev/portfolioDev">Portfolio Dev WIP</a>
+            <ul class="devNav">
+                <li class="devNavItem">
+                    <a href="/dev/portfolioDev">Portfolio Dev WIP</a>
+                </li>
+            </ul>
         </div>
     </body>
 </html>
